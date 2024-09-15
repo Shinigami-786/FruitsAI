@@ -1,0 +1,54 @@
+.translator-container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.text-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.language-select {
+  margin-bottom: 20px;
+}
+
+.language-select label {
+  margin-right: 10px;
+}
+
+.translate-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.translated-result {
+  margin-top: 20px;
+}
+
+.translated-result h3 {
+  margin-bottom: 10px;
+}
+
+.translated-result p {
+  font-size: 14px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}

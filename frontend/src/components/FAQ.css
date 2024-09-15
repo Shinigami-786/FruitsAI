@@ -1,0 +1,56 @@
+.chat-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fruits-list {
+  padding: 20px;
+}
+
+.fruit-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fruit-card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 150px;
+}
+
+.fruit-card:hover {
+  transform: scale(1.05);
+}
+
+.fruit-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.fruit-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.fruit-details-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #ff7e67;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

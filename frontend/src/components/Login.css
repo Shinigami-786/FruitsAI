@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  p span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .login-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .login-tabs span {
+    padding: 10px 0;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .active-tab {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .options label {
+    cursor: pointer;
+  }
+  
+  .options a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons svg {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .social-icons svg:hover {
+    color: #007bff;
+  }
+  
+  .fingerprint {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
