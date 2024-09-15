@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Chat.css'; // Import the CSS file for styling
+import './Chat.css';
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
@@ -8,10 +8,8 @@ const Chatbot = () => {
   const handleSend = () => {
     if (input.trim() === '') return;
 
-    // Add user message to chat
     setMessages([...messages, { text: input, sender: 'user', type: 'text' }]);
 
-    // Simulate bot response after a short delay
     setTimeout(() => {
       const botReply = getBotReply(input);
       setMessages(prevMessages => [
